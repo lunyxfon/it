@@ -1,0 +1,81 @@
+@font-face{
+  font-family: Gotham;
+  src: url(../fonts/Gotham-Bold.otf);
+}
+@font-face{
+  font-family: Proxima;
+  src: url(../fonts/proximanova-regular.otf);
+}
+
+*{
+  box-sizing: border-box;
+}
+.team{
+background-color: #f3f3f3;
+}
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+body{
+  margin: 0;
+}
+
+._inner {
+}
+.team__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Gotham;
+  margin: 0;
+}
+.team__text {
+ font-family: Proxima;
+ text-align: center;
+ line-height: 25px;
+}
+.team__line {
+  width: 184px;
+  height: 3px;
+  background-color:#303030 ;
+   margin: 0 auto;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+
+  
+  
+}
+.item {
+ 
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+  padding: 20px 35px;
+  min-width: 210px;
+ 
+}
+
+
+  
+
+.item__img {
+}
+.item__title {
+
+  font-family: Gotham;
+  
+}
+.item__text {
+  font-family: Georgia;
+ 
+}
+.icons {
+}
+.fa{
+  font-size: 15px;
+  color: #7f7f7f;
+}
+
